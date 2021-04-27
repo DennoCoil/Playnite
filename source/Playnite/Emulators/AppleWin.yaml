@@ -1,0 +1,8 @@
+Name: AppleWin
+Website: 'https://github.com/AppleWin/AppleWin#readme'
+Profiles:
+  - Name: Default
+    DefaultArguments: '-conf ".\Default.INI" -d1 "{ImagePath}" -full-screen'
+    Platforms: [Apple II]
+    ImageExtensions: [do,dsk,nib,po,woz,gz,zip]
+    ExecutableLookup: ^AppleWin\.exe$
